@@ -1,0 +1,29 @@
+.user-reducer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3em;
+
+  &__block-properties {
+    display: flex;
+    background-color: #d5d5d5;
+    width: fit-content;
+    box-sizing: content-box;
+    padding: 0.5em;
+    margin: 0.5em;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__each-properties {
+    width: fit-content;
+    padding: 0em 1em;
+    margin-left: 1em;
+  }
+
+  &__priority {
+    width: 2em;
+    margin: 0em 1em;
+  }
+}

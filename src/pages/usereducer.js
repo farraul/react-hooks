@@ -20,16 +20,15 @@ const UseReducer = () => {
     ];
 
     const reducer = (state, action) => {
+        const inputValuePriority = action?.e?.target.value;
 
         console.log("state:", state);
-        /*  [0: { id: 1, title: 'Tarea 1', complete: false, prioridad: 1 }
-             1: { id: 2, title: 'Tarea 2', complete: false, prioridad: 1 }] */
+        /*  [ 0: { id: 1, title: 'Tarea 1', complete: false, prioridad: 1 }
+             1: { id: 2, title: 'Tarea 2', complete: false, prioridad: 1 }  ] */
         console.log("action:", action);
-        /*  {e: SyntheticBaseEvent { _reactName: 'onChange', _targetInst: null, type: 'change', nativeEvent: InputEvent, target: input.user - reducer__priority, … }
-             id: 1
-             type: "PRIORIDAD"} */
-
-        const inputValuePriority = action?.e?.target.value;
+        /*  { e: SyntheticBaseEvent { _reactName: 'onChange', _targetInst: null, type: 'change', nativeEvent: InputEvent, target: input.user - reducer__priority, … }
+              id: 1
+              type: "PRIORIDAD"} */
 
         switch (action.type) {
             case "COMPLETE":

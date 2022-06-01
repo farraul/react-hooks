@@ -5,10 +5,7 @@ const Home = () => {
 
     return (
         <div>
-            <div>
                 <Header/>
-            </div>
-            home
         </div>
     )
 

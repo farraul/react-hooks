@@ -71,13 +71,13 @@ const UseReducer = () => {
     return (
         <>
             <Header />
-            <div className="user-reducer">
+            <div className="use-reducer">
                 {todos.map((todo) => (
-                    <div key={todo.id} className="user-reducer__block-properties">
+                    <div key={todo.id} className="use-reducer__block-properties">
                         <div>
                             {todo.title}:
                         </div>
-                        <div className="user-reducer__each-properties">
+                        <div className="use-reducer__each-properties">
                             <input
                                 type="checkbox"
                                 checked={todo.complete}
@@ -85,10 +85,10 @@ const UseReducer = () => {
                             />
                             Estado
                         </div>
-                        <div className="user-reducer__each-properties">
+                        <div className="use-reducer__each-properties">
                             <input
                                 type="number"
-                                className="user-reducer__priority"
+                                className="use-reducer__priority"
                                 placeholder={todo.prioridad}
                                 onChange={(e) => handlePriority(todo, e)}
                             />

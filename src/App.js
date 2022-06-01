@@ -7,6 +7,7 @@ import UserReducer from './pages/usereducer'
 import UseContext from './pages/usecontext'
 
 import "./styles/styles.scss";
+import UseForm from './pages/useform';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/use-reducer" element={<UserReducer />} />
             <Route path="/use-context" element={<UseContext />} />
+            <Route path="/use-form" element={<UseForm />} />
 
           </Routes>
         </BrowserRouter>

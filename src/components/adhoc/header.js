@@ -13,8 +13,10 @@ const Header = () => {
 
     return (
         <div className="header-menu">
-            <button onClick={() => goUrl("/")}>Home</button>
-            <button onClick={() => goUrl("/use-reducer")}>UseReducer</button>
+            <button className="header-menu__links" onClick={() => goUrl("/")}>Home</button>
+            <button className="header-menu__links" onClick={() => goUrl("/use-reducer")}>UseReducer</button>
+            <button className="header-menu__links" onClick={() => goUrl("/use-context")}>UseContext</button>
+
         </div>
     )
 

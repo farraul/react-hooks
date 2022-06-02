@@ -11,3 +11,6 @@
 
 **UseCallBack**: Devuelve una función memorizada. Ahora el hijo no se ejectuta de nuevo si no cambian sus props, podría ser un hook que se está pasando por las props. Ayuda a no redenderizar a los hijos sin necesidad.
 
+**UseMemo**: Devuelve un valor memorizado. Nos permite que no tire la funcion si alguien no setea el hook desde otro lado.
+
+

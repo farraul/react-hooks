@@ -23,7 +23,7 @@ const UseCallBack = () => {
   };
   */
 
-  /*Solución con useCallBack, esta a la escucha del hook: todos*/
+  /*Solución con useCallBack, esta a la escucha del hook: [todos]*/
   const addTodo = useCallback(() => {
     console.log("entro en el callback")
     setTodos((t) => [...t, "New Todo"]);

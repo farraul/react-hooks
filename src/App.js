@@ -10,6 +10,7 @@ import "./styles/styles.scss";
 import UseForm from './pages/useform';
 import UseRef from './pages/useref';
 import UseCallBack from './pages/usecallback';
+import UseMemo from './pages/usememo';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/use-form" element={<UseForm />} />
             <Route path="/use-ref" element={<UseRef />} />
             <Route path="/use-call-back" element={<UseCallBack />} />
+            <Route path="/use-memo" element={<UseMemo />} />
 
           </Routes>
         </BrowserRouter>

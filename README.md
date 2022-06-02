@@ -9,5 +9,5 @@
 **UseRef**:      Es como una variable que si la seteamos a ella misma, no redenderiza de nuevo todo el componente. No redenderiza cuando cambia, nos puede servir para saber el estado "anterior" con un useeffect[] de por medio. Al no redenderizar se ve en el siguiente redenderizado. 
 
 
-**UseCallBack**: Ahora el hijo no se ejectuta de nuevo si no cambian sus props, podría ser un hook que se está pasando por las props. 
+**UseCallBack**: Ahora el hijo no se ejectuta de nuevo si no cambian sus props, podría ser un hook que se está pasando por las props. Ayuda a no redenderizar a los hijos sin necesidad.
 

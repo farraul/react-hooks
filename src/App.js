@@ -9,6 +9,7 @@ import UseContext from './pages/usecontext'
 import "./styles/styles.scss";
 import UseForm from './pages/useform';
 import UseRef from './pages/useref';
+import UseCallBack from './pages/usecallback';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/use-context" element={<UseContext />} />
             <Route path="/use-form" element={<UseForm />} />
             <Route path="/use-ref" element={<UseRef />} />
+            <Route path="/use-call-back" element={<UseCallBack />} />
 
           </Routes>
         </BrowserRouter>

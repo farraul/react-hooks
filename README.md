@@ -12,9 +12,7 @@
 
 **UseRef**:      Es como una variable que si la seteamos a ella misma, no redenderiza de nuevo todo el componente. No redenderiza cuando cambia, nos puede servir para saber el estado "anterior" con un useeffect[] de por medio. Al no redenderizar se ve en el siguiente redenderizado. 
 
+**UseMemo**: Devuelve un valor memorizado. Controlando un hook. Evita que redendericen los hijos.
 
-**UseCallBack**: Devuelve una función memorizada. Ahora el hijo no se ejectuta de nuevo si no cambian sus props, podría ser un hook que se está pasando por las props. Ayuda a no redenderizar a los hijos sin necesidad.
-
-**UseMemo**: Devuelve un valor memorizado. Nos permite que no tire la funcion si alguien no setea el hook desde otro lado.
-
+**UseCallBack**: Devuelve una función memorizada. Controlando un hook. Evita que redendericen los hijos. Se complementa a veces con el UseMmemo
 

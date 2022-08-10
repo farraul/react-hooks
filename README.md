@@ -14,5 +14,5 @@
 
 **UseMemo**: Devuelve un valor memorizado. Controlando un hook. Evita que redendericen los hijos.
 
-**UseCallBack**: Devuelve una función memorizada. Controlando un hook. Evita que redendericen los hijos. Se complementa a veces con el UseMmemo
+**UseCallBack**: Devuelve una función memorizada. Controlando un hook. Evita que redendericen los hijos. Se complementa a veces con el UseMemo
 

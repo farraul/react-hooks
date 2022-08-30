@@ -10,7 +10,7 @@
 
 **UseForm**:     Hook personalizado para formularios, no es un hook del mismo react, Lo cargamos desde un archivo pripio en el que tenemos el handle.
 
-**UseRef**:      Es como una variable que si la seteamos a ella misma, no redenderiza de nuevo todo el componente. No redenderiza cuando cambia, nos puede servir para saber el estado "anterior" con un useeffect [ ] de por medio. Al no redenderizar se ve en el siguiente redenderizado. 
+**UseRef**:      Es como una variable que si la seteamos a ella misma, no redenderiza de nuevo todo el componente. No redenderiza cuando cambia, nos puede servir para saber el estado "anterior" con un useffect [ ] de por medio. Al no redenderizar se ve en el siguiente redenderizado. 
 
 **UseMemo**: Devuelve un valor memorizado. Controlando un hook. Evita que redendericen los hijos.
 
